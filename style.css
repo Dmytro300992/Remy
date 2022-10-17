@@ -1,0 +1,24 @@
+* {
+    box-sizing: border-box;
+    font-size: 24px;
+}
+
+ul {
+ font-size: 0;   
+}
+
+li {
+    display: inline-block;
+background-color: rgb(194, 28, 69);
+padding: 10px;
+font-size: 1.5rem;
+}
+
+@media screen and (min-width: 300px) and (max-width: 500px) {
+       li {
+        display: block;
+        background-color: rgb(28, 28, 194);
+        padding: 10px;
+        font-size: 1.5rem;
+       } 
+}
